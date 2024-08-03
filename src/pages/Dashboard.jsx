@@ -82,15 +82,9 @@ function Dashboard() {
 
         {/* OS Kredit */}
         <div className="px-2 mx-auto mainCard">
-          <h1 className="text-slate-500 pb-3 text-base md:text-lg">
-            Pencapaian OS Kredit
-          </h1>
+       
 
-          <div className="flex flex-row gap-x-4 overflow-hidden overflow-x-auto justify-between no-scrollbar">
-            {dataOS?.map((data, index) => (
-              <ScrolledCard key={index} data={data} />
-            ))}
-          </div>
+    
 
           <div className="lg:w-full w-[1024px] overflow-hidden flex flex-row justify-between text-slate-700 gap-2 lg:max-h-screen overflow-x-auto whitespace-nowrap"></div>
         </div>

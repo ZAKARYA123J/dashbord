@@ -33,6 +33,10 @@ function Table() {
       key: "action",
       label: "Aksi",
     },
+    {
+      key:"Inscription",
+      label:'Inscription'
+    }
   ];
 
   const handleDelete = () => {};
